@@ -1,0 +1,14 @@
+C:\Users\DRK\OneDrive\DRK\UniBrasil\2 Semester\Pratica Profissional - Programação\App\ParkingStop\ParkingStop\bin\Debug\ParkingStop.exe.config
+C:\Users\DRK\OneDrive\DRK\UniBrasil\2 Semester\Pratica Profissional - Programação\App\ParkingStop\ParkingStop\bin\Debug\ParkingStop.exe
+C:\Users\DRK\OneDrive\DRK\UniBrasil\2 Semester\Pratica Profissional - Programação\App\ParkingStop\ParkingStop\bin\Debug\ParkingStop.pdb
+C:\Users\DRK\OneDrive\DRK\UniBrasil\2 Semester\Pratica Profissional - Programação\App\ParkingStop\ParkingStop\obj\Debug\ParkingStop.csprojAssemblyReference.cache
+C:\Users\DRK\OneDrive\DRK\UniBrasil\2 Semester\Pratica Profissional - Programação\App\ParkingStop\ParkingStop\obj\Debug\ParkingStop.FrontPage.resources
+C:\Users\DRK\OneDrive\DRK\UniBrasil\2 Semester\Pratica Profissional - Programação\App\ParkingStop\ParkingStop\obj\Debug\ParkingStop.Properties.Resources.resources
+C:\Users\DRK\OneDrive\DRK\UniBrasil\2 Semester\Pratica Profissional - Programação\App\ParkingStop\ParkingStop\obj\Debug\ParkingStop.csproj.GenerateResource.cache
+C:\Users\DRK\OneDrive\DRK\UniBrasil\2 Semester\Pratica Profissional - Programação\App\ParkingStop\ParkingStop\obj\Debug\ParkingStop.csproj.CoreCompileInputs.cache
+C:\Users\DRK\OneDrive\DRK\UniBrasil\2 Semester\Pratica Profissional - Programação\App\ParkingStop\ParkingStop\obj\Debug\ParkingStop.exe
+C:\Users\DRK\OneDrive\DRK\UniBrasil\2 Semester\Pratica Profissional - Programação\App\ParkingStop\ParkingStop\obj\Debug\ParkingStop.pdb
+C:\Users\DRK\OneDrive\DRK\UniBrasil\2 Semester\Pratica Profissional - Programação\App\ParkingStop\ParkingStop\obj\Debug\ParkingStop.VehicleControl.resources
+C:\Users\DRK\OneDrive\DRK\UniBrasil\2 Semester\Pratica Profissional - Programação\App\ParkingStop\ParkingStop\obj\Debug\ParkingStop.Forms.AddVehicleBox.resources
+C:\Users\DRK\OneDrive\DRK\UniBrasil\2 Semester\Pratica Profissional - Programação\App\ParkingStop\ParkingStop\obj\Debug\ParkingStop.Forms.AppExit.resources
+C:\Users\DRK\OneDrive\DRK\UniBrasil\2 Semester\Pratica Profissional - Programação\App\ParkingStop\ParkingStop\obj\Debug\ParkingStop.Forms.LogInPage.resources

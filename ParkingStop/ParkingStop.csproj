@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{67A69D4F-D019-4117-B81A-EDAA9CC19CA7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ParkingStop</RootNamespace>
+    <AssemblyName>ParkingStop</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DumpTheCode.cs" />
+    <Compile Include="Forms\AddVehicleBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AddVehicleBox.Designer.cs">
+      <DependentUpon>AddVehicleBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AppExit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\AppExit.Designer.cs">
+      <DependentUpon>AppExit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\LogInPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\LogInPage.Designer.cs">
+      <DependentUpon>LogInPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrontPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrontPage.Designer.cs">
+      <DependentUpon>FrontPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interface\IAutomobile.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Forms\VehicleControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\VehicleControl.Designer.cs">
+      <DependentUpon>VehicleControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vehicles Classes\Car.cs" />
+    <Compile Include="Vehicles Classes\Vehicle.cs" />
+    <Compile Include="Vehicles Classes\Vehicle_List.cs" />
+    <EmbeddedResource Include="Forms\AddVehicleBox.resx">
+      <DependentUpon>AddVehicleBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AppExit.resx">
+      <DependentUpon>AppExit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\LogInPage.resx">
+      <DependentUpon>LogInPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrontPage.resx">
+      <DependentUpon>FrontPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Forms\VehicleControl.resx">
+      <DependentUpon>VehicleControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\Btn_Min.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\Btn_Max.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\Btn_Restore.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\Btn_Quit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\Logo_Bike.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\Logo_BikeW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\Logo_Car.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\Logo_CarW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\Logo_SUV.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\Logo_SUVW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\CheckIN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\CheckOUT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\LogoParkStop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\BG_50Wht.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\BG_07.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\BG_25Wht.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\BG_50Blck.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\BG_75Blck.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\BG_08.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\BG_01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\BG_02.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\BG_03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\BG_04.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\BG_05.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\BG_06.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\Logo_Car3d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\Logo_SUV3d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\Logo_Bike3d.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
